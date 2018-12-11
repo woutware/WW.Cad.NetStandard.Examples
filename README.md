@@ -1,5 +1,5 @@
 # WW.Cad.NetStandard.Examples
-Contains .NET Core samples for the [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard).
+Contains .NET Core samples for the trial version of [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard).
 
 An UWP example will be coming soon.
 
