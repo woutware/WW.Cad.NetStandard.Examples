@@ -1,5 +1,7 @@
 # WW.Cad.NetStandard.Examples
-Contains .NET Core and UWP samples for the [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard).
+Contains .NET Core samples for the [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard).
+
+An UWP example will be coming soon.
 
 For these applications to work you will need a trial license.
 The MyAppKeyPair.snk linked in the projects are not present in the repository, 
