@@ -17,5 +17,5 @@ you should generate your own strong name key and keep it private.
 1. Go to the project properties Singing tab, and check the "Sign the assembly" checkbox, 
    and choose the strong name key you created.
 
-1. Register and get your trial license from [https:www.woutware.com/SoftwareLicenses](https:www.woutware.com/SoftwareLicenses).
+1. Register and get your trial license from [https://www.woutware.com/SoftwareLicenses](https://www.woutware.com/SoftwareLicenses).
    Enter your strong name key public key token that you got at step 3.
