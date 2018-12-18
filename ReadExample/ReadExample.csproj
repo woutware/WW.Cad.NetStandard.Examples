@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>D:\wc\NetCore\bin\</OutputPath>
+    <OutputPath>D:\wc\ReadExample\bin\netcoreapp2.0\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\wc\NetCore\bin\</OutputPath>
+    <OutputPath>D:\wc\ReadExample\bin\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc19" />
+    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc20" />
   </ItemGroup>
 
 </Project>
