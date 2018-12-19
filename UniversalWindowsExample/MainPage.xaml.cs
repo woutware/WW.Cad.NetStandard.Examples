@@ -16,7 +16,6 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.Primitives;
 
 using WW.Cad.Base;
@@ -32,6 +31,7 @@ using WW.Cad.Drawing.Uwp;
 namespace UniversalWindowsExample {
     /// <summary>
     /// This is a basic UWP application displaying an AutoCAD drawing.
+    /// First setup up your trial license in <see cref="App.App()"/>.
     /// </summary>
     public sealed partial class MainPage : Page {
         private DxfModel model;
@@ -106,13 +106,7 @@ namespace UniversalWindowsExample {
                 );
 
                 writeableBitmap = new WriteableBitmap(pixelWidth, pixelHeight);
-                using (var memoryManager = new WriteableBitmapMemoryManager(writeableBitmap)) {
-                    Memory<Bgra32> memory = memoryManager.Memory;
-
-                    using (var bitmap = SixLabors.ImageSharp.Image.WrapMemory<Bgra32>(memory, pixelWidth, pixelHeight)) {
-                        cadGraphics.Draw(bitmap, new Rectangle(0, 0, size.Width, size.Height), transform);
-                    }
-                }
+                cadGraphics.Draw(writeableBitmap, new Rectangle(0, 0, size.Width, size.Height), transform);
             }
             return writeableBitmap;
         }
