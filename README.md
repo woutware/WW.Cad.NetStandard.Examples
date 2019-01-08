@@ -1,5 +1,5 @@
 # WW.Cad.NetStandard.Examples
-Contains .NET Core samples for the trial version of [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard).
+Contains .NET Core samples and a basic UWP sample viewer application for the trial version of [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard). The Universal Windows application can render AutoCAD DWG and DXF files.
 
 For these applications to work you will need a trial license.
 The MyAppKeyPair.snk linked in the projects are not present in the repository, 
