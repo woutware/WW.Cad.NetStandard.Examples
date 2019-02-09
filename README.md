@@ -1,4 +1,7 @@
 # WW.Cad.NetStandard.Examples
+
+This library works in .NET Core only. For the regular .NET version of CadLib, please visit https://www.woutware.com/net/cad, and download the trial version, which contains Win Forms, WPF and Open GL viewer examples.
+
 Contains .NET Core samples and a basic UWP sample viewer application for the trial version of [WW.Cad.NetStandard library](https://www.woutware.com/ww.cad.netstandard). The Universal Windows application can render AutoCAD DWG and DXF files.
 
 For these applications to work you will need a trial license.
