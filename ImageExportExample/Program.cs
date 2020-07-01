@@ -3,7 +3,6 @@ using System.IO;
 
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.Primitives;
 
 using WW.Cad.Drawing;
 using WW.Cad.IO;

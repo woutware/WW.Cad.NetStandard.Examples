@@ -16,8 +16,6 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-using SixLabors.Primitives;
-
 using WW.Cad.Base;
 using WW.Cad.Drawing;
 using WW.Cad.Drawing.NetCore;
@@ -25,6 +23,7 @@ using WW.Cad.IO;
 using WW.Cad.Model;
 using WW.Math;
 using WW.Cad.Drawing.Uwp;
+using SixLabors.ImageSharp;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -95,7 +94,7 @@ namespace UniversalWindowsExample {
                 int pixelWidth = (int)frameworkElement.ActualWidth;
                 int pixelHeight = (int)frameworkElement.ActualHeight;
 
-                SixLabors.Primitives.Size size = new SixLabors.Primitives.Size(pixelWidth, pixelHeight);
+                SixLabors.ImageSharp.Size size = new SixLabors.ImageSharp.Size(pixelWidth, pixelHeight);
                 Matrix4D transform = DxfUtil.GetScaleTransform(
                     bounds.Min,
                     bounds.Max,

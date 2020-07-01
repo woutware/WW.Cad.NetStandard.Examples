@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.Primitives;
 
 using WW.Cad.Base;
 using WW.Cad.Drawing;
