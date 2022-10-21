@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc59" />
+    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc75" />
   </ItemGroup>
 
 </Project>
